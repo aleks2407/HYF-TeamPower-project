@@ -1,5 +1,45 @@
 
+/* Page related general layout*/
 
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+
+.site-title {
+    text-align: center;
+    background-color: #374a35;
+    color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+header a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        padding: 5px;
+    }
+
+header li {
+        display: inline;
+    }
+
+header a:hover {
+        color: yellowgreen;
+        font-weight: bold;
+    }
+
+    /* Article */
 
 article {
     margin: auto;
