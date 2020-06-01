@@ -1,14 +1,16 @@
 /* Section */
 
+section {
+    margin:auto;
+    height: 400px;
+    
+}
 .container {
     width: 80%;
-    margin: 20px;
+    margin: auto;
     overflow: hidden;
-}
-.introduction {
-    width: 50%;
-    height: 300px; 
-    background: url(https://user-images.githubusercontent.com/53440164/83354073-0f284100-a357-11ea-8e70-cdf7fb051fb0.jpg) no-repeat; 
+    background-color: aquamarine;
+    
 }
 .container > h2 {
     margin: 50px;
@@ -18,9 +20,52 @@
   }
   .container > p {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
     color: black;
     font-weight: bold;
   }
+
+/* Page related general layout*/
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+
+.site-title {
+    text-align: center;
+    background-color: #374a35;
+    color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+header a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        padding: 5px;
+    }
+
+header li {
+        display: inline;
+    }
+
+header a:hover {
+        color: yellowgreen;
+        font-weight: bold;
+    }
+
+    /* Article */
 
 article {
     margin: auto;
@@ -47,4 +92,5 @@ article {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
+}
