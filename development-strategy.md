@@ -39,12 +39,15 @@ __As a site visitor, I want to know what the web page is called__
 
 ### HTML
 
-- [ ] a header element 
-- [ ] navigation bar
+- [ ] a header element
+- [ ] heading with the page title
+- [ ] class "site-title"
+- [ ] navigation element
 
 ### CSS
 
 - [ ] style of the header
+- [ ] style of the "site-title" class
 - [ ] style of the navbar
 
 ---
