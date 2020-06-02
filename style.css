@@ -2,7 +2,7 @@
 
 section {
     margin:auto;
-    height: 400px;
+    height: 200px;
     
 }
 .container {
@@ -71,6 +71,7 @@ article {
     margin: auto;
     background-color: beige;
     width: 80%;
+    height: 200px;
 }
 
 .main-article h3 {
